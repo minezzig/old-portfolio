@@ -1,0 +1,97 @@
+
+/* universal selector to clear presets */
+*{
+    margin: 0 auto;
+    box-sizing: border-box; /* includes border inside box dimensions */
+}
+
+body {
+    background-color: grey;  /* sets the main body color */
+}
+
+a:link { /* applies to all links: no underline, color, and spacing on all sides */
+    text-decoration: none;  
+    color: white;
+    padding: 5px 10px;
+}
+
+a:visited { /* links that have been visited will appear in a different color */
+    color: darkgrey
+}
+
+header a:hover { /* when the cursor moves over a link it will have a small pubble around it */
+    background: white;
+    color: black;
+    border-radius: 15px;
+}
+
+header a:active { /* when a link is clicked, the colors of the bubble and text will invert */
+    background: black;
+    color: white;
+} 
+
+header { /* the background color of the header banner */
+    background-color: steelblue;
+}
+
+.center { /* a class that is helped to center text throughout the document */
+    text-align: center;
+}
+
+h1 { /* The main title of the webpage will be large, a certain font, and have space above  */
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 0 0 0;
+}
+
+h2 { /* subtitle, adjusts color, font, size, and adds space above and below */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 5px 0 15px;
+}
+
+nav { /* the navigation links' size and font.  as well as gives space underneath to push blue background down */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+
+main { /* sets a main container around content.  Helpt to center content */
+    width: 650px;
+}
+
+article { /* each section of the page has space on all sides */
+    margin: 25px;
+}
+
+h3 { /* The titles for each article.  Changes font, and gives sapce around */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px
+}
+
+img { /* Sets dimensions and makes main image circular  */
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 10px 150px;
+}
+
+hr { /* sets the width and design of the diving bars in the page */
+    width: 350px;
+    border: 1px solid steelblue;
+}
+
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 270px;
+}
+
+footer { /* Sets the color of the bottom section of the page as well as stretches it to the full width */
+    background-color: steelblue;
+    width: 100%;
+}
+
+footer p { /* selects only the paragraphs of the footer section and adds space to widen the bar */
+    padding: 20px;
+}

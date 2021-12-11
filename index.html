@@ -1,0 +1,63 @@
+<!DOCTYPE html> <!-- required, type of document-->
+<html>
+    <head> <!-- required information to format page-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link type="text/css" rel="stylesheet" href="style.css" /> <!-- links css document to html-->
+        <title>Greg's Page</title>
+    </head>
+<body>
+<header>
+    <h1 class="center">gregory minezzi</h1>
+    <h2 class="center">software developer</h2>
+    <nav class="center"> <!-- These Nav links, when clicked, will move to the associated IDs on the current page-->
+        <a href="#intro">Intro</a>
+        <a href="#about-me">About Me</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <article id="intro"> <!--The section of the webpage that contains the Introduction -->
+        <h3 class="center">Introduction</h3>
+        <img src="images/intro-photo.jpg" height="300" alt="Greg's Picture"> <!-- Displays an image-->
+        <p>Hola. I'm Greg.<br>
+            From Brooklyn, NY - based in Madrid, Spain.</p>
+    </article>
+    <hr>
+    <article id="about-me"> <!-- Section of the webpage that contains the About Me-->
+        <h3 class="center">About Me</h3>
+        <p>After spending years in the New York City restuarant industry, I hit 
+        the road and traveled the world for a year and half before finally settling 
+        down in Spain.</p><br>
+        <p>For the last 6 years, I have called Madrid home, working as an English 
+        and Technology teacher in a Bilingual High school.</p><br>
+        <p>My passion for language and problem solving has led me to a career in 
+        software development.  I love the concept of giving meaning to language; 
+        transforming code to beautiful and interactive web pages.  Throughout 
+        my time as an educator, as well as traveling, I have continuously worked and 
+        collaborated with others to learn, create, and succeed.</p><br>
+        <p>When not teaching or learning code, I enjoy:</p></br>
+        <ul> <!-- This is an unordered list describing some of my hobbies-->
+            <li>traveling and exploring new cultures</li>
+            <li>cooking and eating vegan cuisine</li>
+            <li>cycling through the city or along the water</li>
+        </ul>
+    </article>
+    <hr>
+    <article class="contact"> <!-- Section of the webpage that contains the Contact section-->
+        <h3 class="center">Contact Me</h3>
+        <ol> <!-- This is an ordered list that give 3 options to learn more about or contact me-->
+            <li><a href="https://www.linkedin.com/in/minezzig" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/minezzig" target="_blank">GitHub</a></li>
+            <li><a href="mailto:gregoryminezzi@gmail.com?subject=Found your website">E-mail</a></li>
+        </ol>
+    </article> 
+</main>
+
+<footer class="center"> <!-- A final section to the page-->
+<p><strong>minezzi 2021</strong></p>
+</footer>
+    <script src="script.js"></script> <!-- Links any javascript file that may be associated-->
+</body>
+</html>

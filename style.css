@@ -92,6 +92,9 @@ footer { /* Sets the color of the bottom section of the page as well as stretche
     width: 100%;
 }
 
-footer p { /* selects only the paragraphs of the footer section and adds space to widen the bar */
+footer p { /* selects only the paragraphs of the footer section and adds font and space to widen the bar */
+    font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
+    color: white;
+    letter-spacing: 2px;
 }
